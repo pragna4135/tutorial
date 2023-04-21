@@ -1,0 +1,30 @@
+body {
+    background-color: pink;
+    color: #151D3E;
+}
+
+.work-exp {
+    flex-direction: column;
+}
+
+.margin-desktop {
+    margin: 20px 0;
+}
+
+.skills-svg svg {
+    margin: 0 10px;
+}
+
+@media(min-width:768px) {
+    .work-exp {
+        flex-direction: row;
+    }
+
+    .border-right {
+        border-right: 1px solid #151D3E;
+    }
+
+    .margin-desktop {
+        margin: 40px 0;
+    }
+}
